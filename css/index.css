@@ -1,0 +1,296 @@
+.topnav {
+  width: 100%;
+  box-sizing: border-box;
+  height: 40px;
+  padding-left: 78px;
+  padding-right: 55px;
+  display: flex;
+  padding-top: 5px;
+  background: rgba(201, 21, 35, 1);
+  position: relative;
+  top: 0;
+}
+
+.topnav #logo {
+  width: 56px;
+  height: 21px;
+  position: absolute;
+  display: block;
+  left: 10px;
+  top: 10px;
+  background-image: url('./../images/jd-sprites.png');
+  background-position: 0 -109px;
+  background-size: 200px;
+  box-sizing: border-box;
+}
+
+.topnav #login {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: white;
+  display: block;
+  font-size: 17px;
+  box-sizing: border-box;
+}
+
+.topnav #search {
+  width: 100%;
+  height: 30px;
+  background-color: white;
+  border-radius: 15px;
+  border: none;
+  padding-left: 35px;
+  font-size: 13px;
+  box-sizing: border-box;
+}
+
+.topnav #search_logo {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url('./../images/jd-sprites.png');
+  background-position: -60px -109px;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 90px;
+  top: 11px;
+}
+
+.shuffling img {
+  width: 100%;
+  height: 200px;
+  vertical-align: middle;
+}
+
+.icon {
+  background-color: white;
+}
+
+.icon ul {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.icon li {
+  width: 25%;
+  box-sizing: border-box;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.icon li a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.icon li img {
+  width: 40px;
+  display: block;
+  margin: 10px auto 5px;
+}
+
+.icon li span {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+}
+
+.seckill {
+  width: 100%;
+  line-height: 30px;
+  background-color: white;
+  margin-top: 5px;
+}
+
+.seckill_nav {
+  position: relative;
+  padding-left: 32px;
+}
+
+.seckill #seckill_logo {
+  display: block;
+  width: 19px;
+  height: 22px;
+  background-image: url('./../images/jd-sprites.png');
+  background-size: 200px;
+  background-position: -84px -109px;
+  position: absolute;
+  left: 10px;
+  top: 3px;
+}
+
+.seckill span:nth-child(3),
+span:nth-child(4),
+span:nth-child(5) {
+  background-color: #1b1818;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.seckill a {
+  float: right;
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+.seckill_content {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin-left: 0;
+}
+
+.seckill_content ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.seckill_content li {
+  text-align: center;
+}
+
+.seckill_content li img {
+  margin: 0 auto;
+  width: 110px;
+  display: block;
+}
+
+.ticket {
+  width: 100%;
+  position: relative;
+}
+
+.ticket .ticket_bg img {
+  width: 100%;
+}
+
+.ticket ul {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.ticket ul li {
+  float: left;
+  width: 50%;
+}
+
+.ticket ul li img {
+  display: block;
+  width: 100%;
+}
+
+.list {
+  width: 100%;
+}
+
+.list ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list li:nth-child(1),
+.list li:nth-child(2),
+.list li:nth-child(3) {
+  width: 33.3%;
+  box-sizing: border-box;
+  display: block;
+}
+
+.list li:nth-child(1) img,
+.list li:nth-child(2) img,
+.list li:nth-child(3) img {
+  width: 100%;
+  display: block;
+}
+
+.list li:nth-child(4),
+.list li:nth-child(5),
+.list li:nth-child(6),
+.list li:nth-child(7) {
+  width: 50%;
+  box-sizing: border-box;
+  display: block;
+}
+
+.list li:nth-child(4) img,
+.list li:nth-child(5) img,
+.list li:nth-child(6) img,
+.list li:nth-child(7) img {
+  width: 100%;
+  display: block;
+}
+
+.banner {
+  width: 100%;
+  display: flex;
+  margin: 5px 0;
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+
+.banner a {
+  width: 100%;
+  display: block;
+}
+
+.banner a img {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+}
+
+.market {
+  width: 100%;
+  background-color: white;
+  margin-bottom: 5px;
+}
+
+.market p {
+  height: 30px;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgb(209, 64, 28);
+  padding-left: 5px;
+  box-sizing: border-box;
+}
+
+.market ul {
+  width: 100%;
+}
+
+.market li {
+  float: left;
+  width: 50%;
+}
+
+.market li img {
+  width: 99%;
+  display: block;
+  font-size: 0;
+}
+
+.footer {
+  width: 100%;
+  background-color: white;
+}
+
+.footer p {
+  height: 30px;
+}
+
+.footer p a {
+  line-height: 30px;
+}
